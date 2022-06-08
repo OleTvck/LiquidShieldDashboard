@@ -64,7 +64,8 @@
             <div class="row">
                 <div class="col shadow">
                     <h5 class="mt-2">New CVE Feed</h5>
-                    <DisplayAPI />
+                    <!-- <DisplayAPI /> -->
+                    <BarChart />
                 </div>
                 <div class="col shadow">
                     <h5>Relevent Training</h5>

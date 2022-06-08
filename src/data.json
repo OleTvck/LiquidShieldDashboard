@@ -1,0 +1,12 @@
+{
+    "applications": {
+        "web browsers": ["chrome", "firefox", "safari", "opera", "ie"],
+        "messaging": ["whatsapp", "telegram", "viber", "skype", "hangouts", "discord", "pidgin", "thunderbird", "trillian"],
+        "media": ["itunes", "vlc", "aimp", "foobar2000", "spotify", "musicbee", "audacity", "k-lite codecs", "gom", "cccp", "mediamonkey", "handbrake"],
+        "runtimes": ["java", ".net", "silverlight"],
+        "imaging": ["krita", "blender", "paint.net", "photoshop", "gimp", "inkscape"],
+        "documents": ["word", "Libreoffice", "sumatrapdf"],
+        "online storage": ["dropbox", "google drive", "onedrive", "sugarsync"],
+        "security": ["essentials", "malwarebytes", "avast", "avg"]
+    }
+}

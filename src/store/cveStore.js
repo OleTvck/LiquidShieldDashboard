@@ -49,6 +49,7 @@ export const useStore = defineStore('store', {
           if (score >= 9) impactStruct[keyword]['9-10']++;
         }
         console.log(impactStruct);
+        this.impactStruct = impactStruct;
       }
 
       // Copy the temporary array over the state.resultTotals all at once.

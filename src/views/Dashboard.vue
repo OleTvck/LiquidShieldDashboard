@@ -4,8 +4,8 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col shadow">
-                    <h5>Consulting Hours Left</h5>
-                    <p class="display-1">5</p>
+                    <h5>Total CVE's</h5>
+                    <TotalAPIResults />
                 </div>
                 <div class="col shadow">
                     <h5>New Notifications</h5>
@@ -65,7 +65,7 @@
                 <div class="col shadow">
                     <h5 class="mt-2">New CVE Feed</h5>
                     <!-- <DisplayAPI /> -->
-                    <BarChart />
+                    <DisplayAPI />
                 </div>
                 <div class="col shadow">
                     <h5>Relevent Training</h5>
@@ -90,10 +90,14 @@
 
 import BarChart from '../components/BarChart.vue';
 import DisplayAPI from '../components/DisplayAPI.vue';
+import HelloWorld from '../../src copy/components/HelloWorld.vue';
+import TestAPI from '../components/totalAPIResults.vue';
+import TotalAPIResults from '../components/totalAPIResults.vue';
     export default {
-    components: { BarChart, DisplayAPI }
+    components: { BarChart, DisplayAPI, HelloWorld, TestAPI, TotalAPIResults }
 }
 </script>
+        TestAPI>
 
 <style>
     .container {
